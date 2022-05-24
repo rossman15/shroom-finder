@@ -1,4 +1,5 @@
 import React from 'react';
+import { Routes, Route, Link } from "react-router-dom";
 import './App.scss';
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <header className="App-header">
         Welcome to Shroom Finder
       </header>
+      <Routes>
+        {/* <Route path="/" element={<Home />} /> */}
+      </Routes>
     </div>
   );
 }
