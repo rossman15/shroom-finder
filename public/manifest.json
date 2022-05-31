@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Shroom Finder",
+  "short_name": "Shroom Finder",
   "icons": [
     {
       "src": "favicon.ico",
