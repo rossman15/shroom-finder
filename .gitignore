@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+# nextjs
+.next
+
 # testing
 /coverage
 
