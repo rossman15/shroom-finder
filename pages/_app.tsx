@@ -1,7 +1,9 @@
-import '../App.scss'
 import type { AppProps } from 'next/app'
 import Head  from 'next/head'
 
+/**
+ * @description this is a custom component that every page uses. Add common things here.
+ */
 export default function MyApp({ Component, pageProps }: AppProps) {
    
   return (

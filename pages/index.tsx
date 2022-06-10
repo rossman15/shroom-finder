@@ -1,14 +1,12 @@
 
-
-
 const Page = () => {
     return (
-        <div className="App">
+      <div className="App">
         <header className="App-header">
-          Welcome to Shroom Finder
+          W  asdelcome to Shroom Finder asd
         </header>
       </div>
-      );
+    );
 }
 
 export default Page;
