@@ -1,5 +1,6 @@
 import type { AppProps } from 'next/app'
 import Head  from 'next/head'
+import '../styles/App.scss'
 
 /**
  * @description this is a custom component that every page uses. Add common things here.
