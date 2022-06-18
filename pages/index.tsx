@@ -1,10 +1,11 @@
-
+import NavBar from '../src/components/NavBar'
 const Page = () => {
     return (
       <div className="App">
-        <header className="App-header">
+        <NavBar />
+        <div className="App-header">
           Welcome to Shroom Finder
-        </header>
+        </div>
       </div>
     );
 }

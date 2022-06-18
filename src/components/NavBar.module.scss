@@ -1,0 +1,35 @@
+@use '../../styles/variables';
+
+.links {
+    display: block;
+    // padding: 10px 15px;
+}
+
+.logo {
+    width: 25px;
+    height: auto;
+    // padding-left: 15px;
+}
+
+.navbar {
+    display: flex;
+    width: '100%';
+    justify-content: space-between;
+    align-items: center;
+    background-color: variables.$backgroundColor;
+    border-bottom: 1px solid #444343;
+    z-index: 100;
+    // padding-top: .5em;
+	// padding-bottom: .5em;
+}
+
+.logo a,
+.navbar a {
+    padding: 15px 15px;
+	text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    font-family: variables.$font-primary;
+    text-transform: uppercase;
+}
