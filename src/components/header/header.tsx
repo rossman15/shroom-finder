@@ -26,13 +26,13 @@ export default function Header() {
                             </span>
                             <Link
                                 href={`/api/auth/signin`}
-                                className={styles.buttonPrimary}
+                                
                                 onClick={(e) => {
                                     e.preventDefault()
                                     signIn()
                                 }}
                             >
-                                Sign in
+                                <a className={styles.buttonPrimary}>Sign in</a>
                             </Link>
                         </>
                     )}
