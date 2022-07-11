@@ -1,12 +1,9 @@
+import Layout from "../src/components/layout"
 
-const Page = () => {
-    return (
-      <div className="App">
-        <header className="App-header">
-          Welcome to Shroom Finder
-        </header>
-      </div>
-    );
+export default function IndexPage() {
+  return (
+    <Layout>
+      <h1>Welcome to Shroom Finder</h1>
+    </Layout>
+  )
 }
-
-export default Page;
