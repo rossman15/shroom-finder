@@ -1,4 +1,6 @@
 import Layout from "../src/components/layout"
+import prisma from '../lib/prisma';
+import { GetStaticProps } from "next";
 
 export default function IndexPage() {
   return (
@@ -7,3 +9,7 @@ export default function IndexPage() {
     </Layout>
   )
 }
+
+// export const getStaticProps: GetStaticProps = async () => {
+ 
+// };
