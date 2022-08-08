@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from "next/document";
 
 /**
  * @description this is a custom element to render the document how we want.
@@ -7,7 +7,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <meta name="description" content="Find Shrooms"/>
+        <meta name="description" content="Find Shrooms" />
         <meta charSet="utf-8" />
         <link
           rel="stylesheet"
@@ -23,5 +23,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
