@@ -1,5 +1,6 @@
 import { useSession } from "next-auth/react";
-import Layout from "../src/components/layout";
+import * as React from "react";
+import Layout from "../src/components/layout/layout";
 
 export default function MePage() {
   const { data } = useSession();
